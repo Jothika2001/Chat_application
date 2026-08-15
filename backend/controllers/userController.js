@@ -38,7 +38,7 @@ exports.loginUser = async (req, res) => {
         id: user._id,
         name: user.name
       },
-      "SECRET_KEY", // 🔥 move to .env later
+      "SECRET_KEY",
       {
         expiresIn: "1d"
       }
